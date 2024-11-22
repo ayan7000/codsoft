@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Destination - Lakshadweep</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Hero Section */
+        .hero-section {
+            background-image: url('Lakshadweep.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3.5em;
+            margin-bottom: 0.5em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero-section p {
+            font-size: 1.3em;
+            margin-bottom: 1em;
+        }
+
+        .cta-button {
+            background-color: #ff5a5a;
+            color: #fff;
+            padding: 0.8em 1.5em;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #ff2a2a;
+        }
+
+        /* About Section */
+        .about-section {
+            padding: 4em 2em;
+            text-align: center;
+            background-color: #f9f9f9;
+        }
+
+        .about-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 1em;
+            color: #333;
+        }
+
+        .about-section p {
+            font-size: 1.1em;
+            color: #666;
+            line-height: 1.8;
+            margin-bottom: 2em;
+        }
+
+        /* Gallery Section */
+        .gallery-section {
+            padding: 4em 2em;
+            text-align: center;
+        }
+
+        .gallery-section h2 {
+            font-size: 2.5em;
+            margin-bottom: 1em;
+            color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 1.5em;
+            flex-wrap: wrap;
+            margin-top: 2em;
+        }
+
+        .gallery img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Footer Section */
+        footer {
+            padding: 1em;
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="hero-section">
+        <h1>Discover the Lakshadweep</h1>
+        <p>Explore pristine beaches and breathtaking coral reefs.</p>
+        <a href="#explore" class="cta-button">Explore Now</a>
+    </header>
+
+    <!-- About Section -->
+    <section id="explore" class="about-section">
+        <h2>Why Visit the Lakshadweep?</h2>
+        <p>Visiting Lakshadweep is an unforgettable experience, especially for nature lovers, adventure enthusiasts, and those seeking a peaceful getaway. Here’s why you should consider visiting Lakshadweep:</p>
+        <ul>
+            <li><strong>Pristine Beaches</strong> - Experience unspoiled white sandy beaches surrounded by turquoise blue waters. Ideal for relaxation and escaping the chaos of city life.</li>
+            <li><strong>Diverse Marine Life</strong> - Explore vibrant coral reefs and a wide variety of marine species. A paradise for snorkeling and scuba diving enthusiasts.</li>
+            <li><strong>Adventure and Water Sports</strong> - Engage in exciting activities like kayaking, windsurfing, fishing, and parasailing. Lakshadweep is a top spot for underwater photography.</li>
+            <li><strong>Eco-Friendly Tourism</strong> - The islands promote sustainable tourism, ensuring their natural beauty remains preserved. Stay in eco-friendly resorts with minimal environmental impact.</li>
+        </ul>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <h2>Explore the Beauty</h2>
+        <div class="gallery">
+            <img src="Lakshadweep_beach.jpeg" alt="Lakshadweep Beach">
+            <img src="resort.jpg" alt="Resort">
+            <img src="marine_life2.jpg" alt="Marine Life">
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Travel the World. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
